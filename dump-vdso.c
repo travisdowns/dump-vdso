@@ -1,5 +1,11 @@
+// Written by Geoffrey Thomas
+// https://ldpreload.com/p/blog/dump-vdso.c
+// and released into the public domain:
+// https://ldpreload.com/pages/copyright
+
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 
 int
 main()
